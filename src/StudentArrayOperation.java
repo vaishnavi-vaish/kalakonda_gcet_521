@@ -23,7 +23,7 @@ public interface StudentArrayOperation {
 	 * 
 	 * @throws IllegalArgumentException
 	 */
-	if(students == NULL ) 
+	if(students == null ) 
 		throw new IllegalArgumentException("students field is null set");
 	void setStudents(Student[] students);
 	
