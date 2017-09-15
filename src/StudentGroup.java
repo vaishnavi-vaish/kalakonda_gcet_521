@@ -104,7 +104,6 @@ public class StudentGroup implements StudentArrayOperation {
 	public void removeFromIndex(int index) {
 		// Add your implementation here
 		int i=this.students.length;
-		//this.students[index]=this.students[i];
 		this.students[index]=null;
 	}
 
@@ -118,7 +117,6 @@ public class StudentGroup implements StudentArrayOperation {
 		{index=j;
 		break;
                 }
-		//this.students[index]=this.students[i];
 		this.students[index]=null;
 	}
 
