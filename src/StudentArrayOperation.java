@@ -23,8 +23,11 @@ public interface StudentArrayOperation {
 	 * 
 	 * @throws IllegalArgumentException
 	 */
-	if(students == null ) 
-		throw new IllegalArgumentException( );
+	try{
+		if(students == null ) 
+	}
+	catch (IllegalArgumentException ex) {
+	}
 	void setStudents(Student[] students);
 	
 
