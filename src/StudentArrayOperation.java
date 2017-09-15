@@ -23,7 +23,7 @@ public interface StudentArrayOperation {
 	 * 
 	 * @throws IllegalArgumentException
 	 */
-	if (getStudents() == null) {
+	if (student.length == null) {
     throw new IllegalArgumentException("students cannot be null.");
 }
 	void setStudents(Student[] students);
